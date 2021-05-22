@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    box-sizing: border-box;
+   
+}
+
+html {
+
+    font-size: 16px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1px;
+    color: greenyellow;
+}
+
+
+#page{
+    background-color: aqua;
+   
+}
+
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.fall-1{
+    font-size: 1.4rem;
+    animation: down 15s infinite ease-in-out;
+    margin-bottom: 300%;
+    line-height: 30px;
+      
+}
+@keyframes down{
+    
+    from {
+           color: #1f7134;
+           margin-bottom: 300%}
+     to {
+           color: #01ff41;
+           margin-bottom: -200%}
+}
+
+.fall-2{
+    font-size: 1.3rem;
+    animation: down2 13s infinite;
+    margin-bottom: 200%;
+    
+    
+}
+@keyframes down2{
+    
+    from {
+           color: #00ff41;
+           margin-bottom: 200%}
+     to {
+           color: #057c23;
+           margin-bottom: -200%}
+}
+
+.fall-3{
+    font-size: 1.1rem;
+    animation: down3 7s infinite;
+    margin-bottom: 150%;
+    
+    
+}
+@keyframes down3{
+    
+    from {
+           color: #28392f;
+           margin-bottom: 150%}
+     to {
+           color: #01290b;
+           margin-bottom: -200%}
+}
+
+.fall-4{
+    font-size: 0.9rem;
+    animation: down4 9s infinite;
+    margin-bottom: 120%;
+    
+    
+}
+@keyframes down4{
+    
+    from {
+           color: #00ff41;
+           margin-bottom: 120%}
+     to {
+           color: #01290b;
+           margin-bottom: -200%}
+}
+
+.fall-5{
+    font-size: 0.5rem;
+    animation: down5 15s infinite;
+    margin-bottom: 190%;
+    
+    
+}
+@keyframes down5{
+    
+    from {
+           color: #00ff41;
+           margin-bottom: 190%}
+     to {
+           color: #057c23;
+           margin-bottom: -200%}
+}
+
+.fall-6{
+    font-size: 1.2rem;
+    animation: down6 12s infinite;
+    margin-bottom: 180%;
+    
+    
+}
+@keyframes down6{
+    
+    from {
+           color: #00ff41;
+           margin-bottom: 180%}
+     to {
+           color: #057c23;
+           margin-bottom: -200%}
+}
+
+.fall-7{
+    font-size: 1.3rem;
+    animation: down7 21s infinite;
+    margin-bottom: 177%;
+    
+    
+}
+@keyframes down7{
+    
+    from {
+           color: #00ff41;
+           margin-bottom: 177%}
+     to {
+           color: #057c23;
+           margin-bottom: -200%}
+}
+
+.fall-8{
+    font-size: 1.6rem;
+    animation: down8 14s infinite;
+    margin-bottom: 130%;
+    
+    
+}
+@keyframes down8{
+    
+    from {
+           color: #00ff41;
+           margin-bottom: 130%}
+     to {
+           color: #057c23;
+           margin-bottom: -200%}
+}
