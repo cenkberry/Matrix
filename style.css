@@ -2,171 +2,651 @@
     margin: 0;
     padding: 0;
     text-indent: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-   
+
+
 }
 
 html {
 
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    letter-spacing: 1px;
-    color: greenyellow;
+    letter-spacing: 5px;
+    color: #ffffff;
 }
 
-
-#page{
-    background-color: aqua;
-   
-}
-
-
-.screen {
+#page {
+    position: fixed;
+    margin: 0 auto;
     width: 100%;
     height: 100vh;
     background-color: black;
     overflow-x: hidden;
     overflow-y: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+    color: #ffffff;
+
 }
 
-
-.fall-1{
-    font-size: 1.4rem;
-    animation: down 15s infinite ease-in-out;
-    margin-bottom: 300%;
-    line-height: 30px;
-      
-}
-@keyframes down{
-    
-    from {
-           color: #1f7134;
-           margin-bottom: 300%}
-     to {
-           color: #01ff41;
-           margin-bottom: -200%}
-}
-
-.fall-2{
-    font-size: 1.3rem;
-    animation: down2 13s infinite;
-    margin-bottom: 200%;
-    
-    
-}
-@keyframes down2{
-    
-    from {
-           color: #00ff41;
-           margin-bottom: 200%}
-     to {
-           color: #057c23;
-           margin-bottom: -200%}
-}
-
-.fall-3{
-    font-size: 1.1rem;
-    animation: down3 7s infinite;
-    margin-bottom: 150%;
-    
-    
-}
-@keyframes down3{
-    
-    from {
-           color: #28392f;
-           margin-bottom: 150%}
-     to {
-           color: #01290b;
-           margin-bottom: -200%}
-}
-
-.fall-4{
-    font-size: 0.9rem;
-    animation: down4 9s infinite;
-    margin-bottom: 120%;
-    
-    
-}
-@keyframes down4{
-    
-    from {
-           color: #00ff41;
-           margin-bottom: 120%}
-     to {
-           color: #01290b;
-           margin-bottom: -200%}
-}
-
-.fall-5{
+.bar1 {
     font-size: 0.5rem;
-    animation: down5 15s infinite;
-    margin-bottom: 190%;
-    
-    
-}
-@keyframes down5{
-    
-    from {
-           color: #00ff41;
-           margin-bottom: 190%}
-     to {
-           color: #057c23;
-           margin-bottom: -200%}
+    left: 2%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 6s infinite ease-in-out;
+    animation: down1 6s infinite ease-in-out;
+
 }
 
-.fall-6{
-    font-size: 1.2rem;
-    animation: down6 12s infinite;
-    margin-bottom: 180%;
-    
-    
-}
-@keyframes down6{
-    
-    from {
-           color: #00ff41;
-           margin-bottom: 180%}
-     to {
-           color: #057c23;
-           margin-bottom: -200%}
+.bar2 {
+    font-size: 0.7rem;
+    left: 4%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 7s infinite ease-in-out;
+    animation: down2 7s infinite ease-in-out;
 }
 
-.fall-7{
+.bar3 {
+    font-size: 0.9rem;
+    left: 6%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 8s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.bar4 {
+    font-size: 1.1rem;
+    left: 8%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down4 7s infinite ease-in-out;
+    animation: down4 7s infinite ease-in-out;
+}
+
+.bar5 {
     font-size: 1.3rem;
-    animation: down7 21s infinite;
-    margin-bottom: 177%;
-    
-    
-}
-@keyframes down7{
-    
-    from {
-           color: #00ff41;
-           margin-bottom: 177%}
-     to {
-           color: #057c23;
-           margin-bottom: -200%}
+    left: 10%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down5 6s infinite ease-in-out;
+    animation: down5 6s infinite ease-in-out;
 }
 
-.fall-8{
-    font-size: 1.6rem;
-    animation: down8 14s infinite;
-    margin-bottom: 130%;
-    
-    
+.bar10 {
+    font-size: 0.5rem;
+    left: 12%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 6s infinite ease-in-out;
+    animation: down1 6s infinite ease-in-out;
 }
-@keyframes down8{
+
+.bar20 {
+    font-size: 0.9rem;
+    left: 14%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 7s infinite ease-in-out;
+    animation: down2 7s infinite ease-in-out;
+}
+
+.bar30 {
+    font-size: 0.7rem;
+    left: 16%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 8s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.bar40 {
+    font-size: 1.5rem;
+    left: 18%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down4 7s infinite ease-in-out;
+    animation: down4 7s infinite ease-in-out;
+}
+
+.bar50 {
+    font-size: 1.2rem;
+    left: 20%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down5 6s infinite ease-in-out;
+    animation: down5 6s infinite ease-in-out;
+}
+
+.bar100 {
+    font-size: 0.5rem;
+    left: 22%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 6s infinite ease-in-out;
+    animation: down1 6s infinite ease-in-out;
+}
+
+.bar200 {
+    font-size: 0.9rem;
+    left: 24%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 7s infinite ease-in-out;
+    animation: down2 7s infinite ease-in-out;
+}
+
+.bar300 {
+    font-size: 0.7rem;
+    left: 26%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 8s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.bar400 {
+    font-size: 1.5rem;
+    left: 28%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down4 7s infinite ease-in-out;
+    animation: down4 7s infinite ease-in-out;
+}
+
+.bar500 {
+    font-size: 1.2rem;
+    left: 30%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down5 6s infinite ease-in-out;
+    animation: down5 6s infinite ease-in-out;
+}
+
+.bar1000 {
+    font-size: 0.5rem;
+    left: 32%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 15s infinite ease-in-out;
+    animation: down1 15s infinite ease-in-out;
+}
+
+.bar2000 {
+    font-size: 0.9rem;
+    left: 34%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 16s infinite ease-in-out;
+    animation: down2 10s infinite ease-in-out;
+}
+
+.bar3000 {
+    font-size: 1.2rem;
+    left: 38%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 17s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.bar4000 {
+    font-size: 1.5rem;
+    left: 44%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down4 16s infinite ease-in-out;
+    animation: down4 13s infinite ease-in-out;
+}
+
+.bar5000 {
+    font-size: 1.3rem;
+    left: 48%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down5 19s infinite ease-in-out;
+    animation: down5 19s infinite ease-in-out;
+}
+
+
+
+.rbar1 {
+    font-size: 0.5rem;
+    right: 2%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 6s infinite ease-in-out;
+    animation: down1 6s infinite ease-in-out;
+
+}
+
+.rbar2 {
+    font-size: 0.7rem;
+    right: 4%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 7s infinite ease-in-out;
+    animation: down2 7s infinite ease-in-out;
+}
+
+.rbar3 {
+    font-size: 0.9rem;
+    right: 6%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 8s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.rbar4 {
+    font-size: 1.1rem;
+    right: 8%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down4 7s infinite ease-in-out;
+    animation: down4 7s infinite ease-in-out;
+}
+
+.rbar5 {
+    font-size: 1.3rem;
+    right: 10%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down5 6s infinite ease-in-out;
+    animation: down5 6s infinite ease-in-out;
+}
+
+.rbar10 {
+    font-size: 0.5rem;
+    right: 12%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 6s infinite ease-in-out;
+    animation: down1 6s infinite ease-in-out;
+}
+
+.rbar20 {
+    font-size: 0.9rem;
+    right: 14%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 7s infinite ease-in-out;
+    animation: down2 7s infinite ease-in-out;
+}
+
+.rbar30 {
+    font-size: 0.7rem;
+    right: 16%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 8s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.rbar40 {
+    font-size: 1.5rem;
+    right: 18%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down4 7s infinite ease-in-out;
+    animation: down4 7s infinite ease-in-out;
+}
+
+.rbar50 {
+    font-size: 1.2rem;
+    right: 20%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down5 6s infinite ease-in-out;
+    animation: down5 6s infinite ease-in-out;
+}
+
+.rbar100 {
+    font-size: 0.5rem;
+    right: 22%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 6s infinite ease-in-out;
+    animation: down1 6s infinite ease-in-out;
+}
+
+.rbar200 {
+    font-size: 0.9rem;
+    right: 24%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 7s infinite ease-in-out;
+    animation: down2 7s infinite ease-in-out;
+}
+
+.rbar300 {
+    font-size: 0.7rem;
+    right: 26%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 8s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.rbar400 {
+    font-size: 1.5rem;
+    right: 28%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down4 7s infinite ease-in-out;
+    animation: down4 7s infinite ease-in-out;
+}
+
+.rbar500 {
+    font-size: 1.2rem;
+    right: 30%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down5 6s infinite ease-in-out;
+    animation: down5 6s infinite ease-in-out;
+}
+
+.rbar1000 {
+    font-size: 0.7rem;
+    right: 32%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down1 15s infinite ease-in-out;
+    animation: down1 15s infinite ease-in-out;
+}
+
+.rbar2000 {
+    font-size: 0.9rem;
+    right: 34%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down2 16s infinite ease-in-out;
+    animation: down2 9s infinite ease-in-out;
+}
+
+.rbar3000 {
+    font-size: 1.2rem;
+    right: 38%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down3 17s infinite ease-in-out;
+    animation: down3 8s infinite ease-in-out;
+}
+
+.rbar4000 {
+    font-size: 1.5rem;
+    right: 44%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 40px;
+    -webkit-animation: down4 16s infinite ease-in-out;
+    animation: down4 11s infinite ease-in-out;
+}
+
+.rbar5000 {
+    font-size: 1.3rem;
+    right: 48%;
+    position: absolute;
+    color: #03A062;
+    bottom: 80%;
+    line-height: 30px;
+    -webkit-animation: down5 19s infinite ease-in-out;
+    animation: down5 13s infinite ease-in-out;
+}
+
+
+.matrix{
     
-    from {
-           color: #00ff41;
-           margin-bottom: 130%}
-     to {
-           color: #057c23;
-           margin-bottom: -200%}
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #01ff41;
+    animation: matrix 30s infinite linear;
+    z-index: 5;
+}
+
+.neo{
+    position: absolute;
+    left: 48%;
+    top:25%;
+    width: 20%;
+    height: 50%;
+    opacity: 0;
+    z-index: 6;
+    animation: neo 30s infinite linear;
+}
+
+
+@keyframes matrix {
+
+  0%   {color: #01ff41;
+           font-size: 1rem;
+    }
+    
+  10%   {color: #f8f8f8;
+        font-size: 2rem;
+        transform: translate3d(5px, 0, 0);
+      
+    }
+    
+  20%  {color: #01ff41;
+       font-size: 3rem;
+       transform: translate3d(-5px, 0, 0);
+    }
+    
+  30%  {color: #f8f8f8;
+        font-size: 4rem;
+        transform: translate3d(5px, 0, 0);
+        }
+    
+    
+  40%  {color: #01ff41;
+       font-size: 5rem;
+       transform: translate3d(-5px, 0, 0);}
+    
+  50%  {color: #f8f8f8;
+        font-size: 6rem;
+        transform: translate3d(5px, 0, 0);
+      }
+    
+  60%  {color: #01ff41;
+        font-size: 7rem;
+        transform: translate3d(-5px, 0, 0);
+      }
+  70%  {color: #f8f8f8;
+        font-size: 8rem;
+        transform: translate3d(5px, 0, 0);
+      }
+    
+  80%  { font-size: 9rem;
+         transform: translate3d(5px, 0, 0);
+          }
+    
+  90%  { color: #f8f8f8;
+        font-size: 11rem;
+        background-color: #000000;
+        width: 100%;
+        height: 100vh;
+          }
+    
+  
+  100% {color: #f8f8f8;
+        font-size: 11rem;
+        background-color: #000000;
+        width: 100%;
+        height: 100vh;}
+}
+
+@keyframes neo {
+
+  0%   {opacity:0;}
+  25%  {opacity:0;}
+  50%  {opacity:0;}
+  75%  {opacity:0;}
+  90%  {opacity:0.3;}
+  100% {opacity:0.3;}
+}
+
+
+@keyframes down1 {
+
+  0%   {color: #f8f8f8;
+        bottom: 100%;}
+  25%  {color: #b2fcc5}
+  50%  {color: #63f287}
+  75%  {color: #2afc5f}
+  100% {color: #01ff41;
+        bottom: -260%;}
+}
+
+
+@keyframes down2 {
+
+  0%   {color: #f8f8f8;
+        bottom: 120%;}
+  25%  {color: #b2fcc5}
+  50%  {color: #63f287}
+  75%  {color: #2afc5f}
+  100% {color: #01ff41;
+        bottom: -270%;}
+}
+
+
+
+@keyframes down3 {
+
+  0%   {color: #f8f8f8;
+        bottom: 130%;}
+  25%  {color: #b2fcc5}
+  50%  {color: #63f287}
+  75%  {color: #2afc5f}
+  100% {color: #01ff41;
+        bottom: -280%;}
+}
+
+
+
+@keyframes down4 {
+
+  0%   {color: #f8f8f8;
+        bottom: 140%;}
+  25%  {color: #b2fcc5}
+  50%  {color: #63f287}
+  75%  {color: #2afc5f}
+  100% {color: #01ff41;
+        bottom: -290%;}
+}
+
+
+
+@keyframes down5 {
+
+ 0%   {color: #f8f8f8;
+       bottom: 150%;}
+  25%  {color: #b2fcc5}
+  50%  {color: #63f287}
+  75%  {color: #2afc5f}
+  100% {color: #01ff41;
+        bottom: -300%;}
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    #page>*{
+
+        font-size: calc(1vw + 0.6vh + 0.1vmin);
+    }
+    
+    
+
+
+
 }
