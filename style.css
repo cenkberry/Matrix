@@ -570,7 +570,6 @@ html {
   100% {opacity:0.3;}
 }
 
-
 @keyframes down1 {
 
   0%   {color: #f8f8f8;
@@ -581,7 +580,6 @@ html {
   100% {color: #01ff41;
         bottom: -260%;}
 }
-
 
 @keyframes down2 {
 
@@ -594,8 +592,6 @@ html {
         bottom: -270%;}
 }
 
-
-
 @keyframes down3 {
 
   0%   {color: #f8f8f8;
@@ -607,8 +603,6 @@ html {
         bottom: -280%;}
 }
 
-
-
 @keyframes down4 {
 
   0%   {color: #f8f8f8;
@@ -619,8 +613,6 @@ html {
   100% {color: #01ff41;
         bottom: -290%;}
 }
-
-
 
 @keyframes down5 {
 
@@ -638,14 +630,86 @@ html {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 
     #page>*{
 
         font-size: calc(1vw + 0.6vh + 0.1vmin);
+        
     }
     
+    @keyframes matrix {
+
+  0%   {color: #01ff41;
+           font-size: 1rem;
+    }
     
+  10%   {color: #f8f8f8;
+        font-size: 2rem;
+        transform: translate3d(5px, 0, 0);
+      
+    }
+    
+  20%  {color: #01ff41;
+       font-size: 2rem;
+       transform: translate3d(-5px, 0, 0);
+    }
+    
+  30%  {color: #f8f8f8;
+        font-size: 3rem;
+        transform: translate3d(5px, 0, 0);
+        }
+    
+    
+  40%  {color: #01ff41;
+       font-size: 4rem;
+       transform: translate3d(-5px, 0, 0);}
+    
+  50%  {color: #f8f8f8;
+        font-size: 4rem;
+        transform: translate3d(5px, 0, 0);
+      }
+    
+  60%  {color: #01ff41;
+        font-size: 5rem;
+        transform: translate3d(-5px, 0, 0);
+      }
+  70%  {color: #f8f8f8;
+        font-size: 5rem;
+        transform: translate3d(5px, 0, 0);
+      }
+    
+  80%  { font-size: 5rem;
+         transform: translate3d(5px, 0, 0);
+          }
+    
+  90%  { color: #f8f8f8;
+        font-size: 5rem;
+        background-color: #000000;
+        width: 100%;
+        height: 100vh;
+          }
+    
+  
+  100% {color: #f8f8f8;
+        font-size: 5rem;
+        background-color: #000000;
+        width: 100%;
+        height: 100vh;}
+}
+    @keyframes neo {
+
+  0%   {opacity:0;}
+  25%  {opacity:0;}
+  50%  {opacity:0;}
+  75%  {opacity:0;}
+  90%  {opacity:0.3;
+        width: 60%;
+        left: 25%;}
+  100% {opacity:0.3;
+        width: 60%;
+        left: 25%;}
+}
 
 
 
