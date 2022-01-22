@@ -4,8 +4,6 @@
     text-indent: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-
-
 }
 
 html {
@@ -26,7 +24,6 @@ html {
     overflow-x: hidden;
     overflow-y: hidden;
     color: #ffffff;
-
 }
 
 .bar1 {
@@ -38,7 +35,6 @@ html {
     line-height: 30px;
     -webkit-animation: down1 6s infinite ease-in-out;
     animation: down1 6s infinite ease-in-out;
-
 }
 
 .bar2 {
@@ -250,8 +246,6 @@ html {
     animation: down5 19s infinite ease-in-out;
 }
 
-
-
 .rbar1 {
     font-size: 0.5rem;
     right: 2%;
@@ -261,7 +255,6 @@ html {
     line-height: 30px;
     -webkit-animation: down1 6s infinite ease-in-out;
     animation: down1 6s infinite ease-in-out;
-
 }
 
 .rbar2 {
@@ -1439,7 +1432,4 @@ html {
             left: 25%;
         }
     }
-
-
-
 }
